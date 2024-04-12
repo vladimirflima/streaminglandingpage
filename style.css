@@ -1,0 +1,85 @@
+:root {
+    --branco-principal: #ffffff;
+    --cinza-secundario: #c1aaaa;
+    --botao-azul: #f54260;
+    --cor-de-fundo: #01040c;
+    --fonte-principal: 'Andika';
+}
+ 
+body{
+ 
+    background-color: var(--cor-de-fundo);
+    color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+ 
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+.container{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+ 
+.principal{
+    background-image: url("imagens/background.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+}
+ 
+.container__caixa {
+ 
+    margin: 0 6em;
+}
+ 
+.container__titulo {
+    font-family: var(--fonte-principal);
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+ 
+.container__imagem {
+ 
+    margin: 2em 0 2em 0;
+}
+ 
+.container__botao {
+    background-color: var(--botao-azul);
+    border-radius: 5px;
+    color: var(--branco-principal);
+    display: block;
+    text-decoration: none;
+    margin-bottom: 1em;
+ 
+ 
+}
+ 
+.botao_segundario {
+ 
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+ 
+}
+ 
+ 
+.secundario__imagem {
+    width: 80%;
+}
+ 
+.secundario {
+ 
+    align-items: center;
+    margin: 0 10em;
+    font-size: 20px;
+    font-family: var(--fonte-principal);
+    font-weight: 400;
+   
+}
